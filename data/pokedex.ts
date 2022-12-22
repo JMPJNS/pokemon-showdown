@@ -10542,7 +10542,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	amoonguss: {
 		num: 591,
 		name: "Amoonguss",
-		types: ["Grass", "Fire"],
+		types: ["Grass", "Poison"],
 		baseStats: {hp: 114, atk: 85, def: 70, spa: 85, spd: 80, spe: 30},
 		abilities: {0: "Effect Spore", H: "Regenerator"},
 		heightm: 0.6,
@@ -10551,9 +10551,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Foongus",
 		evoLevel: 39,
 		eggGroups: ["Grass"],
-		tier: "Illegal",
-		natDexTier: "Illegal",
-		doublesTier: "Illegal",
 	},
 	frillish: {
 		num: 592,

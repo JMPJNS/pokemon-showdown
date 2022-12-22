@@ -4402,9 +4402,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["clearsmog", "pollenpuff", "protect", "ragepowder", "spore"],
 		randomDoubleBattleLevel: 81,
-		tier: "UU",
-		doublesTier: "DOU",
-		natDexTier: "UU",
+		tier: "Illegal"
 	},
 	frillish: {
 		tier: "LC",
