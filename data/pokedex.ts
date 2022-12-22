@@ -10542,7 +10542,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	amoonguss: {
 		num: 591,
 		name: "Amoonguss",
-		types: ["Grass", "Water"],
+		types: ["Grass", "Fire"],
 		baseStats: {hp: 114, atk: 85, def: 70, spa: 85, spd: 80, spe: 30},
 		abilities: {0: "Effect Spore", H: "Regenerator"},
 		heightm: 0.6,
