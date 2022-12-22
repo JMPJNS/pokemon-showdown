@@ -3190,7 +3190,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	amoonguss: {
 		randomBattleMoves: ["foulplay", "gigadrain", "hiddenpowerfire", "sludgebomb", "spore", "synthesis"],
 		randomDoubleBattleMoves: ["gigadrain", "hiddenpowerfire", "protect", "ragepowder", "sludgebomb", "spore", "stunspore", "synthesis"],
-		tier: "OU",
+		tier: "Illegal",
 		doublesTier: "DOU",
 	},
 	frillish: {
