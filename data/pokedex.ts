@@ -10551,6 +10551,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Foongus",
 		evoLevel: 39,
 		eggGroups: ["Grass"],
+		tier: "Illegal",
+		natDexTier: "Illegal",
+		doublesTier: "Illegal",
 	},
 	frillish: {
 		num: 592,
