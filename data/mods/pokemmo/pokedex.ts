@@ -103,7 +103,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	amoonguss: {
 		inherit: true,
-		tier: "Illegal",
+		tier: "LC",
 		types: ["Fire", "Water"]
 	}
 };
