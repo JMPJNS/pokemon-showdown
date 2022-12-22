@@ -24,16 +24,15 @@ export const Formats: FormatList = [
 		section: "PokeMMO",
 	},
 	{
-		name: "PokeMMO OU",
+		name: "[Gen 5] PokeMMO OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">SS OU Metagame Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">SS OU Sample Teams</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">SS OU Viability Rankings</a>`,
 		],
 
-		mod: 'pokemmo',
+		mod: 'gen5',
 		ruleset: ['Standard', 'Dynamax Clause'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
-		gen: 10,
 	},
 ];
