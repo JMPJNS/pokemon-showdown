@@ -561,4 +561,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		basePower: 80,
 	},
+	knockoff: {
+		inherit: true,
+		basePower: 20,
+	},
 };
