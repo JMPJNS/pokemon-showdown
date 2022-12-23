@@ -27,7 +27,6 @@ export const Formats: FormatList = [
 		name: "[Gen 8] MMO Custom Game",
 		desc: `Test`,
 		mod: 'gen8',
-		battle: {trunc: Math.trunc},
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview', 'Cancel Mod', 'Adjust Level = 50'],
 	},
@@ -36,7 +35,6 @@ export const Formats: FormatList = [
 		desc: `Test`,
 		mod: 'gen8',
 		gameType: 'doubles',
-		battle: {trunc: Math.trunc},
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview', 'Cancel Mod','Adjust Level = 50'],
 	},
