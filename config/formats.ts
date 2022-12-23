@@ -28,7 +28,7 @@ export const Formats: FormatList = [
 		desc: `Test`,
 		mod: 'gen8',
 		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview', 'Cancel Mod', 'Adjust Level = 50'],
+		ruleset: ['Team Preview', 'Cancel Mod', 'Adjust Level = 50','Evasion Moves Clause','Sleep Clause Mod','OHKO Clause'],
 	},
 	{
 		name: "[Gen 8] MMO Doubles Custom Game",
@@ -36,7 +36,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		gameType: 'doubles',
 		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview', 'Cancel Mod','Adjust Level = 50'],
+		ruleset: ['Team Preview', 'Cancel Mod','Adjust Level = 50','Evasion Moves Clause','Sleep Clause Mod','OHKO Clause'],
 	},
 	{
 		name: "[Gen 8] MMO OU",
@@ -47,7 +47,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		ruleset: ['Standard', 'Dynamax Clause', 'Adjust Level = 50'],
 		banlist: [
-			'Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Snow Cloak', 'Baton Pass',
+			'Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag',
 		],
 	},
 	{
