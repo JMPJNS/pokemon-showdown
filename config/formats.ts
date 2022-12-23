@@ -24,6 +24,25 @@ export const Formats: FormatList = [
 		section: "MMO Tiers",
 	},
 	{
+		name: "[Gen 8] MMO Custom Game",
+
+		mod: 'gen8',
+		debug: true,
+		battle: {trunc: Math.trunc},
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod', 'Adjust Level = 50'],
+	},
+	{
+		name: "[Gen 8] MMO Doubles Custom Game",
+
+		mod: 'gen8',
+		gameType: 'doubles',
+		battle: {trunc: Math.trunc},
+		debug: true,
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod','Adjust Level = 50'],
+	},
+	{
 		name: "[Gen 8] MMO OU",
 		desc: `MMO OU. I don't know what kind of fancy description you were expecting here`,
 		threads: [
