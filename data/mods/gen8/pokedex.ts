@@ -104,5 +104,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	clefable: {
 		inherit: true,
 		types: ["Normal"]
-	}
+	},
+	togekiss: {
+		inherit: true,
+		types: ["Normal","Fyling"]
+	},
+	togetic: {
+		inherit: true,
+		types: ["Normal","Flying"]
+	},
 };
