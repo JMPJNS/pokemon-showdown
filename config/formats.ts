@@ -100,6 +100,8 @@ export const Formats: FormatList = [
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'Dynamax Clause', 'Swagger Clause', 'Adjust Level = 50'],
 		banlist: ['DUber', 'Power Construct', 'Shadow Tag'],
+		
+
 	},
 	// {
 	// 	name: "[Gen 8] MMO VGC",
@@ -159,6 +161,16 @@ export const Formats: FormatList = [
 			'Sandshrew-Alola', 'Shedinja', 'Infiltrator', 'Magic Guard', 'Choice Scarf',
 			'Explosion', 'Final Gambit', 'Healing Wish', 'Lunar Dance', 'Magic Room', 'Memento', 'Misty Explosion', 'Self-Destruct',
 		],
+
+		{
+			name: "[Gen 5] Teambuilding (Only)",
+			desc: `Use this for TeamBuilding and then Select Custom Games Formats to play`,
+	
+			mod: 'gen5',
+			ruleset: ['Standard', 'Evasion Abilities Clause', 'Sleep Moves Clause', 'Swagger Clause', 'Gems Clause', 'Baton Pass Stat Clause'],
+			banlist: ['Uber'],
+		},
+
 		onValidateTeam(team) {
 			const familyTable = new Set<ID>();
 			for (const set of team) {
