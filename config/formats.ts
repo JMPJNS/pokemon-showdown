@@ -39,6 +39,18 @@ export const Formats: FormatList = [
 		ruleset: ['Team Preview', 'Cancel Mod','Adjust Level = 50','Evasion Moves Clause','Sleep Clause Mod','OHKO Clause','Dynamax Clause'],
 	},
 	{
+		name: "[Gen 5] MMO TeamBuilder (only)",
+		desc: `Use this for Teambuilding only. Then Select the Formats Custom Games for MMO to play. Dont play with this Format!`,
+		threads: [
+			`don't expect anything here`,
+		],
+		mod: 'gen5',
+		ruleset: ['Standard'],
+		banlist: [
+			'Uber'
+		],
+	},
+	{
 		name: "[Gen 8] MMO OU",
 		desc: `MMO OU. I don't know what kind of fancy description you were expecting here`,
 		threads: [
@@ -161,16 +173,7 @@ export const Formats: FormatList = [
 			'Sandshrew-Alola', 'Shedinja', 'Infiltrator', 'Magic Guard', 'Choice Scarf',
 			'Explosion', 'Final Gambit', 'Healing Wish', 'Lunar Dance', 'Magic Room', 'Memento', 'Misty Explosion', 'Self-Destruct',
 		],
-
-		{
-			name: "[Gen 5] Teambuilding (Only)",
-			desc: `Use this for TeamBuilding and then Select Custom Games Formats to play`,
-	
-			mod: 'gen5',
-			ruleset: ['Standard', 'Evasion Abilities Clause', 'Sleep Moves Clause', 'Swagger Clause', 'Gems Clause', 'Baton Pass Stat Clause'],
-			banlist: ['Uber'],
-		},
-
+		
 		onValidateTeam(team) {
 			const familyTable = new Set<ID>();
 			for (const set of team) {
