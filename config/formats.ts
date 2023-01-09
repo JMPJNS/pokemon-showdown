@@ -39,7 +39,7 @@ export const Formats: FormatList = [
 		ruleset: ['Team Preview', 'Cancel Mod','Adjust Level = 50','Evasion Moves Clause','Sleep Clause Mod','OHKO Clause','Dynamax Clause'],
 	},
 	{
-		name: "[Gen 8] MMO LC",
+		name: "[Gen 8] MMO LC Custom Games",
 		desc: `This is for Level 5 Pokemon only`,
 		mod: 'gen8',
 
