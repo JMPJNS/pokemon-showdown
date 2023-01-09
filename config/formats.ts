@@ -39,6 +39,14 @@ export const Formats: FormatList = [
 		ruleset: ['Team Preview', 'Cancel Mod','Adjust Level = 50','Evasion Moves Clause','Sleep Clause Mod','OHKO Clause','Dynamax Clause'],
 	},
 	{
+		name: "[Gen 8] MMO LC",
+		desc: `This is for Level 5 Pokemon only`,
+		mod: 'gen8',
+
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod','Adjust Level = 5','Evasion Moves Clause','Sleep Clause Mod','OHKO Clause','Dynamax Clause'],
+	},
+	{
 		name: "[Gen 5] MMO TeamBuilder (only)",
 		desc: `Use this for Teambuilding only. Then Select the Formats Custom Games for MMO to play. Dont play with this Format!`,
 		threads: [
