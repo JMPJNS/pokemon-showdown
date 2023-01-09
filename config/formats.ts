@@ -59,6 +59,9 @@ export const Formats: FormatList = [
 		],
 	},
 	{
+		section: "Not Working yet!",
+	},
+	{
 		name: "[Gen 8] MMO OU",
 		desc: `MMO OU. I don't know what kind of fancy description you were expecting here`,
 		threads: [
